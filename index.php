@@ -9,7 +9,7 @@
   * DATE: 02-13-2013
   * DETAILS: Program O's starting point
   ***************************************/
-
+header('Access-Control-Allow-Origin: *');  
   if (!file_exists('config/global_config.php'))
   {
   # No config exists we will run install
