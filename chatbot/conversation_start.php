@@ -9,7 +9,7 @@
   * DATE: MAY 17TH 2014
   * DETAILS: this file is the landing page for all calls to access the bots
   ***************************************/
-
+header('Access-Control-Allow-Origin: *');  
   $time_start = microtime(true);
   $script_start = $time_start;
   $last_timestamp = $time_start;
